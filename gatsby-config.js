@@ -2,12 +2,12 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Mukesh Reghu',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+      'I’m an AI Scientist Engineer learning to build great AI and Software systems. I have previously worked in the following domains - Deep Learning for NLP, Deep Learning, Explainable AI and Machine Learning. I am a problem solver and a keen learner. I am currently interested in learning more about the applications of Large Language Models (LLMs).',
+    siteUrl: 'https://mukeshreghu.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Mukesh Reghu',
+        short_name: 'Mukesh Reghu',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

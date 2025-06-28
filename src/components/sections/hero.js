@@ -60,18 +60,12 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Mukesh Reghu.</h2>;
+  const three = <h3 className="big-heading">Learning to Build Great AI and Software Systems.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
+        I’m an AI Scientist Engineer learning to build great AI and Software systems. I have previously worked in the following domains - Deep Learning for NLP, Deep Learning, Explainable AI and Machine Learning. I am a problem solver and a keen learner. I am currently interested in learning more about the applications of Large Language Models (LLMs).
       </p>
     </>
   );
@@ -85,7 +79,8 @@ const Hero = () => {
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  // const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>
